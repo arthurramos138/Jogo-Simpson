@@ -1,0 +1,29 @@
+button{
+    font-family: 'Londrina Solid', cursive;
+    background-color: grey;
+    font-size: 3rem;
+    padding: 0.7em;
+    border-radius: 15px;
+    color: orange;
+    cursor: pointer;
+    border: none;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(../css/familia2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 7em;
+}

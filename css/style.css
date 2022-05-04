@@ -1,0 +1,93 @@
+.começo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 3em;
+    background-color: rgba(135, 188, 230, 0.7);
+    padding: 5em;
+    border-radius: 20px;
+    width: 70%;
+}
+h1{
+    color: #2676a1;
+    font-size: 4rem;
+    text-align: center;
+}
+.container-personagens{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.personagem{
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    font-family: 'Londrina Solid', cursive;
+    font-size: 3rem;
+    width: 15%;
+    
+}
+button {
+    border: none;
+}
+
+.Ralph-img{
+    background-color: #2676a1;
+    border-radius: 40%;
+    transition:  0.5s;
+    width: 100%;
+}
+.Homer-img{
+    background-color: #2676a1;
+    border-radius: 40%;
+    transition:  0.5s;
+    width: 100%;
+
+}
+.Bart-img{
+    background-color: #2676a1;
+    width: 100%;
+    border-radius: 40%;
+    transition: 05;
+}
+
+
+.fechamento{
+    float: unset !important;
+    margin: unset !important;
+    padding: unset !important;
+    text-transform: unset !important;
+    position: fixed;
+    display: none;
+    z-index: 2147483841;
+    background-color: #ffffff !important;
+    text-align: center;
+    font-family: 'Hero New' !important;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: auto;
+    top: 60px;
+    right: 16px;
+    overflow: hidden;
+    width: 336px;
+    height: 456px;
+    border-radius: 4px;
+    box-shadow: 0 4px 16px 0 rgb(0 0 0 / 20%);
+    box-sizing: border-box;
+    text-transform: none !important;
+}
+body{
+    background-image: url('./familia2.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 99%;
+    height: 98vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Londrina Solid', cursive;
+}
